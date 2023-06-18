@@ -1,12 +1,15 @@
 import sys
 import os
+from PyQt5.QtGui import QIcon
 from PyQt5.QtWidgets import QApplication, QWidget, QVBoxLayout, QLabel, QLineEdit, QComboBox, QPushButton, QFileDialog, QMessageBox
+
 
 class App(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Generador de .desktop")
-        self.setGeometry(100, 100, 400, 250)  # Tamaño de la ventana (x, y, ancho, alto)
+        self.setWindowIcon(QIcon("/usr/share/icons/hicolor/scalable/apps/appimage-desktop-creator.png"))
+        self.setGeometry(100, 100, 400, 250)
         self.layout = QVBoxLayout()
 
         self.name_label = QLabel("Nombre:")
