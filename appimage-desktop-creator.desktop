@@ -1,0 +1,18 @@
+[Desktop Entry]
+Categories=Game
+Comment[es_CO]=Crea un archivo .desktop con un appimage de forma simple.
+Comment=Crea un archivo .desktop con un appimage de forma simple.
+Exec=python /usr/bin/appimage-desktop-creator/appimage-desktop-creator.py
+GenericName[es_CO]=
+GenericName=
+Icon=/usr/share/icons/hicolor/scalable/apps/appimage-desktop-creator.png
+MimeType=
+Name[es_CO]=Añadir appimage al menu de apps
+Name=Añadir appimage al menu de apps
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
